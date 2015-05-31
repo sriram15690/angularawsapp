@@ -52,7 +52,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'roo'
-#gem 'mysql2'
+gem 'mysql2'
 #gem 'angularjs-rails'
 gem 'bower-rails'
 gem 'thin'
