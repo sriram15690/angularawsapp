@@ -1,0 +1,46 @@
+{:uriI"¢file:///D:/projects/angularapp/app/assets/templates/events/update_prasadam.html?type=text/html&id=df7a315a5a9bd66f877f3706efb41d943ff6a0019dd8f47dc4249dfbe2569a5f:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"LD:/projects/angularapp/app/assets/templates/events/update_prasadam.html;T:	nameI"events/update_prasadam;T:logical_pathI" events/update_prasadam.html;T:content_typeI"text/html;T:sourceI"|<div>
+	<form id="generate_prasadam_report" class="contactForm ng-pristine ng-valid" >
+		<div class="control-group">
+			<label class="control-label">Event Date</label>
+			<div class="controls">
+				<input class="datePickerInp form-control" type="text" name="current_event">
+			</div>
+		</div>
+		<div class="form-group m_t_10">
+			<label>Prasadam Not Taken List(Roll Num Separated by Commmas)</label>
+			<textarea rows="6" cols="10" class="form-control" type="text"  name="prasadam_list"></textarea>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="report_letterDate">Letter Date</label>
+			<div class="controls">
+				<input class="datePickerInp" type="text" id="report_letterDate" name="letter_date" placeholder="Letter Date" >
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Next Event Date</label>
+			<div class="controls">
+				<input class="datePickerInp" type="text" id="" name="next_event" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Annual fees</label>
+			<div class="controls">
+				<input type="text" id="" value="1800" name="annual_fees" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Fees Revised On</label>
+			<div class="controls">
+				<input class="datePickerInp" type="text" id="" value="01.01.2012" name="fees_revised_on" placeholder="Next Event Date">
+			</div>
+		</div>
+		
+		<div class="form-group m_t_10">
+			<input type="submit" class="floatRight btn btn-success" value="Get Prasadam Pdf" name="commit">
+		</div>
+	</form>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"[file-digest:///D:/projects/angularapp/app/assets/templates/events/update_prasadam.html;TT:charsetI"
+utf-8;F:digest"%}©¼é(JŒBÑàw(ÅyIŸÈ]|f†ºjÑ{øº:lengthi|:integrityI"Kni:///sha-256;fam86RARKEqMQtHgdxooxXlJn8hdfGaGumoTHtF7-Lo?ct=text/html;T:dependencies_digest"%BËâVÂô.qçî¦pêvßàó@óM5#zj4éùf¡¿:idI"Edf7a315a5a9bd66f877f3706efb41d943ff6a0019dd8f47dc4249dfbe2569a5f;F:
+mtimel+Vn)U

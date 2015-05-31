@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+.mainContent {
+    margin: 0 auto;
+    max-width: 960px;
+}
+* {
+	border: 0;
+	margin: 0;
+}
+
+.clearAll {
+	clear: both;
+}
+
+input {
+	border: 1px solid #bbb;
+}
+
+.m_t_10{
+  margin-top: 10px;
+}
+.dataTables_scrollHeadInner table{
+	margin-bottom: 0;
+}
+.bold{
+	font-weight: bold;
+}
+
+.m_l_10p {
+	margin-left: 10px;
+}
+
+body .navbar-nav > li > a {
+     border: 1px solid #bbb;
+    margin: 5px;
+    padding: 5px;
+}
+ul {
+	padding: 0;
+}
+.floatRight{
+	float: right;
+}
+body p {
+	margin: 0;
+}
+.verticalLineDivider {
+	margin: 0 10px;
+}
+
+.m_b_5, a.m_b_5 {
+	margin-bottom: 5px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	margin: 0;
+}

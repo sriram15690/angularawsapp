@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html  ng-app="app" lang="en">
+	<head>
+		<base href="/">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Sample App</title>
+		<%= favicon_link_tag 'favicon.ico' %>
+		<%= csrf_meta_tag %>
+		<%= stylesheet_link_tag   "application" ,:media => "all" %>
+		<%= javascript_include_tag "application" %>
+	</head>
+
+	<body style="background-color:#e9eef1">
+		<br>
+		<div id="main">
+			<div class="mainContent">
+				<div class="navbar-collapse collapse" ng-controller="NavCtrl">
+					<ul class="nav navbar-nav">
+
+						<li>
+							<a href="/" class="but1" title="">Home</a>
+						</li>
+						<li ng-hide="signedIn()">
+							<a href="login">Log In</a>
+						</li>
+						<li ng-hide="signedIn()">
+							<a href="register">Register</a>
+						</li>
+						<li ng-show="signedIn()">
+							<a ng-bind="user.email" href="/"></a>
+						</li>
+						<li ng-show="signedIn()">
+							<a ng-click="logout()">Log Out</a>
+						</li>
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact Menu <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li >
+									<a href="/contacts">Contacts Home</a>
+								</li>
+								<li >
+									<a href="/contacts/new">New Contact</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Rudram Menu <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li ng-show="signedIn()">
+									<a href="/participants">Rudram Participants Home</a>
+								</li>
+								<li ng-show="signedIn()">
+									<a href="/participants/new">New Participant</a>
+								</li>
+								<li ng-show="signedIn()">
+									<a href="/events/update_prasadam">Generate Rudram Letter</a>
+								</li>
+								<li ng-show="signedIn()">
+									<a target="_self" href="/participants/generate_rudram_report.xlsx">Get Excel List</a>
+								</li>
+
+							</ul>
+						</li>
+						
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog Menu <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li ng-show="signedIn()">
+									<a href="/blogs">Blogs Home</a>
+								</li>
+								<li ng-show="signedIn()">
+									<a href="/blogs/new">New Blog</a>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="clearAll"></div>
+
+				<div ng-view="" ></div>
+			</div>
+		</div>
+
+	</body>
+</html>

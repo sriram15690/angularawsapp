@@ -1,0 +1,62 @@
+<p class="bold">Participant Details</p>
+<a ng-href="/participants/{{participant.id}}/edit">Edit</a>
+<a  data-method="delete"  data-confirm="Are you sure?" ng-href="/participants/{{participant.id}}">Destroy</a>
+<table id="contactsTable" class="table table-bordered table-striped showContactTable" cellspacing="0">
+	<tbody>
+		<tr>
+			 <td>Roll Num</td>
+			 <td>{{participant.roll_num}}</td>
+		</tr>
+		<tr>
+			 <td>Sankalpam Name</td>
+			 <td>{{participant.sankalpam_name}}</td>
+		</tr>
+		<tr>
+			 <td>Gothram</td>
+			 <td>{{participant.gothram}}</td>
+		</tr>
+		<tr>
+			 <td>Rasi</td>
+			 <td>{{participant.rasi}}</td>
+		</tr>
+		<tr>
+			 <td>Nakshatram</td>
+			 <td>{{participant.nakshatram}}</td>
+		</tr>
+		<tr>
+			 <td>Telephone</td>
+			 <td>{{participant.telephone}}</td>
+		</tr>
+		<tr>
+			 <td>Receipt Num</td>
+			 <td>{{participant.receipt_num}}</td>
+		</tr>
+		<tr>
+			 <td>Receipt Date</td>
+			 <td>{{participant.receipt_date}}</td>
+		</tr>
+		<tr>
+			 <td>renewal_date</td>
+			 <td>{{participant.renewal_date}}</td>
+		</tr>
+		<tr>
+			 <td>Address 1</td>
+			 <td>{{participant.address1}}</td>
+		</tr>
+		<tr>
+			 <td>Address 2</td>
+			 <td>{{participant.address2}}</td>
+		</tr>
+		<tr>
+			 <td>City</td>
+			 <td>{{participant.city}}</td>
+		</tr>
+			<tr>
+			 <td>State</td>
+			 <td>{{participant.state}} - {{participant.pincode}}</td>
+		</tr>
+		
+
+	</tbody>
+</table>
+

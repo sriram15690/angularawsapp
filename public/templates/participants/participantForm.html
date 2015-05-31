@@ -1,0 +1,125 @@
+<form ng-submit="submitParticipantForm(participant)" class="contactForm ng-pristine ng-valid">
+	<div class="form-group">
+		<label class="">Roll No</label>
+		<input class="form-control" type="text" ng-model="participant.roll_num" />
+	</div>
+	<div class="form-group">
+		<label>Name <span class="redStar">*</span> </label>
+		<input class="form-control" ng-model="participant.name" type="text" id="participant_name" name="participant[name]" required="required">
+	</div>
+	<div class="form-group">
+		<label class="">Sankalpam Name</label>
+		<input class="form-control" type="text" ng-model="participant.sankalpam_name" />
+	</div>
+	<div class="form-group">
+		<label class="">Address 1</label>
+		<input class="form-control" type="text" ng-model="participant.address1" />
+	</div>
+	<div class="form-group">
+		<label class="">Address 2</label>
+		<input class="form-control" type="text" ng-model="participant.address2" />
+	</div>
+	<div class="form-group">
+		<label class="">City</label>
+		<input class="form-control" type="text" ng-model="participant.city" />
+	</div>
+	<div class="form-group">
+		<label class="">State</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control" type="text" ng-model="participant.state" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="">Pincode</label>
+		<input class="form-control" type="text" ng-model="participant.pincode" />
+	</div>
+	<div class="form-group">
+		<label class="">Telephone</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control" type="text" ng-model="participant.telephone" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="">Gothram</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control" type="text" ng-model="participant.gothram" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="">Rasi</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control" type="text" ng-model="participant.rasi" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="">Nakshatram</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control" type="text" ng-model="participant.nakshatram" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="">Receipt Num</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control" type="text" ng-model="participant.receipt_num" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="datePickerInp">Receipt Date</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control datePickerInp" type="text" ng-model="participant.receipt_date" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="datePickerInp">Renewal Date</label>
+		<div class="formInputWrap w100 boldAlign">
+			<input class="form-control datePickerInp" type="text" ng-model="participant.renewal_date" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label>Email (To Receive Updates)</label>
+		<input class="form-control" ng-model="participant.email" type="text" id="participant)email" name="participant[email]">
+	</div>
+	<div class="form-group">
+		<label>Membership <span class="redStar">*</span> </label>
+		<select class="form-control" ng-model="participant.membership" id="participant_membership" name="participant[membership]">
+			<option value="Member">Member</option>
+			<option value="Not Available">Not Available</option>
+			<option value="Not a Member">Not a Member</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<input type="submit" class="floatRight btn btn-success" value="Submit">
+	</div>
+</form>
+<script>
+	/*
+	 formEles = {
+	 "roll_num" : "Roll No",
+	 "sankalpam_name" : "Sankalpam Name",
+	 "address1" : "Address 1",
+	 "address2" : "Address 3",
+	 "city" : "City",
+	 "pincode" : "Pincode",
+	 "telephone" : "Telephone",
+	 "state" : "State",
+	 "gothram" : "Gothram",
+	 "rasi" : "rasi",
+	 "nakshatram" : "nakshatram",
+	 "receipt_num" : "Receipt Num",
+	 "receipt_date" : "Receipt Date",
+	 "renewal_date" : "Renewal Date"
+	 };
+
+	 var formContent = '';
+	 $.each(formEles, function(key, value) {
+	 rowItem += '<div class="rowItem"><label class="">' + value + '</label><div class="formInputWrap w100 boldAlign"><input class="form-control" type="text" ng-model="participant.' + key + '" /></div></div>';
+	 if ((count % 2) != 0) {
+	 formContent += '<div class="form-group">' + rowItem;
+	 } else {
+	 formContent += rowItem + '</div>';
+	 }
+	 });
+
+	 console.log(formContent);
+	 */
+</script>

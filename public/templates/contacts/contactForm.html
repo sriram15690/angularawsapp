@@ -1,0 +1,34 @@
+<div>
+	<form ng-submit="submitContact()" id="edit_contact" class="contactForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Name <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="contact.name" type="text" id="contact_name" name="contact[name]" required="required">
+		</div>
+		<div class="form-group">
+			<label>Email (To Receive Updates)</label>
+			<input   class="form-control" ng-model="contact.email"type="text" id="contact_email" name="contact[email]">
+		</div>
+		<div class="form-group">
+			<label>Mobile Number <span class="redStar">*</span></label>
+			<input   class="form-control number" ng-model="contact.mobile_num" type="text" id="contact_mobile_num" name="contact[mobile_num]" required="required" >
+		</div>
+
+		<div class="form-group">
+			<label>City of Residence<span class="redStar">*</span></label>
+			<input  class="form-control required"  ng-model="contact.city" type="text" id="contact_city" name="contact[city]" >
+		</div>
+
+		<div class="form-group">
+			<label>Membership <span class="redStar">*</span></label>
+			<select class="form-control" ng-model="contact.membership" id="contact_membership" name="contact[membership]">
+				<option value="Member">Member</option>
+				<option value="Not Available">Not Available</option>
+				<option value="Not a Member">Not a Member</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+</div>

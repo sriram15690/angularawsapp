@@ -1,0 +1,44 @@
+{:uriI"´file:///D:/projects/angularapp/app/assets/templates/reports/generate_monthly_letter.html?type=text/html&id=d939a1fa91fc6a6a9883f125f6b082bd745a429c6723c42b1ee951139a018ebe:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"UD:/projects/angularapp/app/assets/templates/reports/generate_monthly_letter.html;T:	nameI"$reports/generate_monthly_letter;T:logical_pathI")reports/generate_monthly_letter.html;T:content_typeI"text/html;T:sourceI"ñ<div class="contactContent">
+	<form class="form-horizontal" id="generate_letter_report" >
+		<div class="control-group">
+			<label class="control-label" for="report_letterDate">Letter Date</label>
+			<div class="controls">
+				<input type="text" id="report_letterDate" name="letter_date" placeholder="Letter Date" ng-model="report.letterDate">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Event Date</label>
+			<div class="controls">
+				<input type="text" id="" name="current_event" placeholder="Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Next Event Date</label>
+			<div class="controls">
+				<input type="text" id="" name="next_event" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Annual fees</label>
+			<div class="controls">
+				<input type="text" id="" value="1800" name="annual_fees" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Fees Revised On</label>
+			<div class="controls">
+				<input type="text" id="" value="01.01.2012" name="fees_revised_on" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group m_t_10">
+			<div class="controls">
+				<input type="submit" class="btn btn-primary" value="Generate PDF Letter">
+			</div>
+		</div>
+	</form>
+</div>
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"dfile-digest:///D:/projects/angularapp/app/assets/templates/reports/generate_monthly_letter.html;TT:charsetI"
+utf-8;F:digest"%à)‡f“«nPMO≠é∑'e)\jˇÀw8GZGLF¢Y:lengthiñ:integrityI"Kni:///sha-256;iBEp4GbSx25QTU-tjrcNJ2UpXGr_y3c4f0daR0xGolk?ct=text/html;T:dependencies_digest"%òŸ’ßc¸ñNpL°ÁKQÈ?ù“àvß˙Ó»â∏‚ l\©4:idI"Ed939a1fa91fc6a6a9883f125f6b082bd745a429c6723c42b1ee951139a018ebe;F:
+mtimel+»8!U

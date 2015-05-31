@@ -1,0 +1,82 @@
+<%= form_for @contact , :html => {:multipart => true , :class => "contactForm"} do |f| %>
+<% if @contact.errors.any? %>
+<div class="form_errors" id="error_explanation">
+	<h4><%= pluralize(@contact.errors.count, "error") %> prohibited this contact from being saved:</h4>
+
+	<ul>
+		<% @contact.errors.full_messages.each do |msg| %>
+		<li>
+			<%= msg %>
+		</li>
+		<% end %>
+	</ul>
+</div>
+<% end %>
+
+<div class="formRow">
+	<label>Name <span class="redStar">*</span></label>
+	<div class="formInputWrap">
+		<%= f.text_field :name , :required=> "true"%>
+	</div>
+</div>
+<div class="formRow">
+	<label>Email (To Receive Updates)</label>
+	<div class="formInputWrap">
+		<%= f.text_field :email%>
+	</div>
+</div>
+<div class="formRow">
+	<label>Mobile Number <span class="redStar">*</span></label>
+	<div class="formInputWrap">
+		<%= f.text_field :mobile_num , :class=>"number" , :required=> "true"%>
+	</div>
+
+</div>
+
+<% if !f.object.status.blank? %>
+<div class="formRow">
+	<label>Status <span class="redStar">*</span></label>
+	<div class="formInputWrap">
+		<%= f.select :status, options_for_select([["New","new" ], ["Active", "Active"],["Disabled","Disabled" ]], @contact.status), :class=>"required" %>
+	</div>
+</div>
+<%end%>
+
+<div class="formRow">
+	<label>City of Residence<span class="redStar">*</span></label>
+	<div class="formInputWrap">
+		<%= f.text_field :city, :class=>"required" %>
+	</div>
+
+</div>
+<div class="formRow">
+	<label>Membership <span class="redStar">*</span></label>
+	<div class="formInputWrap">
+		<%= f.select :membership, options_for_select([["Member","Member" ],["Not Available","Not Available" ], ["Not a Member", "Not a Member"]], @contact.membership), :class=>"required" %>
+	</div>
+
+</div>
+<div class="formRow">
+	<%= f.submit :class => "floatRight btn btn-success"%>
+</div>
+<% end %>
+
+<script>
+	$(document).ready(function() {
+		console.log("here");
+		$("#new_contact").validate({
+
+			rules : {
+				"contact[mobile_num]" : {
+					required : true,
+					maxlength : 10,
+					minlength : 10
+				},
+				"contact[email]" : {
+					email : true
+				}
+			}
+		});
+
+	}); 
+</script>

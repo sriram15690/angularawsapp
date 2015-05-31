@@ -1,0 +1,29 @@
+{:uriI"Ÿfile:///D:/projects/angularapp/app/assets/templates/participants/upload.html?type=text/html&id=308b3166257dd13a952b516a5921ae81e277256117565c9bef6f849f917df8c0:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"ID:/projects/angularapp/app/assets/templates/participants/upload.html;T:	nameI"participants/upload;T:logical_pathI"participants/upload.html;T:content_typeI"text/html;T:sourceI"İ<div ng-if="showParticipantUoload">
+	<form ng-submit="submitContact()" id="edit_contact" class="contactForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Name <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="contact.name" type="text" id="contact_name" name="contact[name]" required="required">
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+</div>
+
+<div ng-if="showParticipantUoload">
+	<form ng-submit="submitContact()" id="edit_contact" class="contactForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Name <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="contact.name" type="text" id="contact_name" name="contact[name]" required="required">
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Xfile-digest:///D:/projects/angularapp/app/assets/templates/participants/upload.html;TT:charsetI"
+utf-8;F:digest"%qŸ3´®ß98»VÇòÖ%JvÈå©ú^Î¿ 1~X:lengthiİ:integrityI"Kni:///sha-256;cZ8ztH-u3zk4u1bH8tYlSht2yA_lqfpejc6_oBAxflg?ct=text/html;T:dependencies_digest"%İO°°S"ô½¸sCİŸo[inš…°]‘ÂFŞùjÿAú:idI"E308b3166257dd13a952b516a5921ae81e277256117565c9bef6f849f917df8c0;F:
+mtimel+ĞI×T

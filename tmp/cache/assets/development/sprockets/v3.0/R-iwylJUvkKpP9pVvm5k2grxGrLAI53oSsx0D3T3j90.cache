@@ -1,0 +1,6 @@
+{:uriI"ôfile:///D:/projects/angularapp/app/assets/templates/contacts/edit.html?type=text/html&id=e54809279d0acbdacc2d4757853e45b69cbc3a4c18b9a095e1518d5aead71a53:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"CD:/projects/angularapp/app/assets/templates/contacts/edit.html;T:	nameI"contacts/edit;T:logical_pathI"contacts/edit.html;T:content_typeI"text/html;T:sourceI"m<h3 class="m_t_10 center">Edit Contact</h3>
+<div ng-include="'assets/contacts/contactForm.html'"></div>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Rfile-digest:///D:/projects/angularapp/app/assets/templates/contacts/edit.html;TT:charsetI"
+utf-8;F:digest"%rÍ‡†Ê«BÁ^j*∆BuÖ;èHÀ»Õ™y–Ié¶Ù:lengthim:integrityI"Kni:///sha-256;E3Lq4KDmx0LnXh8aairGQnWFO49IGcvIzap50EmOpvQ?ct=text/html;T:dependencies_digest"%Æ+8B?ÕØöZéKﬁ/Â€“X'Íe‰5Ì˙jH≠:idI"Ee54809279d0acbdacc2d4757853e45b69cbc3a4c18b9a095e1518d5aead71a53;F:
+mtimel+t∆T

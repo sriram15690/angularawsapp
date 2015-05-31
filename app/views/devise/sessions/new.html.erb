@@ -1,0 +1,24 @@
+<%= form_for(resource, as: resource_name, url: session_path(resource_name),:html => {:class => "contactForm"}) do |f| %>
+
+<div class="formRow">
+
+	<%= f.label :email %>
+	<div class="formInputWrap">
+		<input type="text" value="" name="user[email]" id="user_email" autofocus="autofocus">
+
+	</div>
+
+</div>
+
+<div class="formRow">
+
+	<%= f.label :password %>
+	<div class="formInputWrap">
+	<input type="password" name="user[password]" id="user_password" autocomplete="off">
+	</div>
+</div>
+
+<div class="formRow">
+		<%= f.submit "Log in" , :class=>"floatRight btn btn-primary"%>
+</div>
+<% end %>

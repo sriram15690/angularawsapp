@@ -1,0 +1,34 @@
+{:uriI"™file:///D:/projects/angularapp/app/assets/templates/contacts/show.html?type=text/html&id=c0a14aeddeef3084353be4033e9e44593bfc598831044d37690fdabe8b7f5d90:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"CD:/projects/angularapp/app/assets/templates/contacts/show.html;T:	nameI"contacts/show;T:logical_pathI"contacts/show.html;T:content_typeI"text/html;T:sourceI"<table id="contactsTable" class="table table-bordered table-striped showContactTable" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>Name:</td>
+			<td>{{ contact.name}}</td>
+		</tr>
+		<tr>
+			<td>Mobile Num:</td>
+			<td>{{ contact.mobile_num}}</td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>{{ contact.email}}</td>
+		</tr>
+		<tr>
+			<td>Status:</td>
+			<td>{{ contact.status}}</td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td>{{ contact.city}}</td>
+		</tr>
+		<tr>
+			<td>Membership</td>
+			<td>{{ contact.membership}}</td>
+		</tr>
+
+	</tbody>
+</table>
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Rfile-digest:///D:/projects/angularapp/app/assets/templates/contacts/show.html;TT:charsetI"
+utf-8;F:digest"%Ü†GX_E yX~ 9»‰>t—ã–şæãóÊ^:èYÎî:lengthi:integrityI"Kni:///sha-256;3IZHWF8HRaB5WH6gnTm7iT50l-OW_ubj88peOuhZzu4?ct=text/html;T:dependencies_digest"%—snñBşÈW__„*Î÷ŸT„TT¹Æa¢ğgK:idI"Ec0a14aeddeef3084353be4033e9e44593bfc598831044d37690fdabe8b7f5d90;F:
+mtimel+ÆT

@@ -1,0 +1,16 @@
+<h4 class="center">Log in</h4>
+<form class="contactForm" ng-submit="login()" accept-charset="UTF-8">
+	<div class="form-group">
+		<label for="user_email">Email</label>
+		<input class="form-control" ng-model="user.email" type="text" autofocus="autofocus" id="user_email" name="user[email]" value="">
+	</div>
+	<div class="form-group">
+		<label for="user_password">Password</label>
+		<input class="form-control"  ng-model="user.password" type="password" autocomplete="off" id="user_password" name="user[password]">
+	</div>
+
+	<div class="form-group">
+		<input   type="submit" value="Log in" name="commit" class="floatRight btn btn-primary">
+	</div>
+</form>
+

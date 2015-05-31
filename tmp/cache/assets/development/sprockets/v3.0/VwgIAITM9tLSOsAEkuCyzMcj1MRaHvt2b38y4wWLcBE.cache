@@ -1,0 +1,43 @@
+{:uriI"ñfile:///D:/projects/angularapp/app/assets/templates/blogs/show.html?type=text/html&id=7b60c19da6b5ba9d791b7bfe0f076459a01ac10ab3bf20a03ce25f4ab1520ef3:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"@D:/projects/angularapp/app/assets/templates/blogs/show.html;T:	nameI"blogs/show;T:logical_pathI"blogs/show.html;T:content_typeI"text/html;T:sourceI"<div>
+	<a href="/blogs" class="btn btn-primary floatRight m_b_5">Back to Blogs</a>
+</div>
+<div class="clearAll"></div>
+<div class="blogContent">
+	<h3>{{blog.title}}</h3>
+	<p>
+		<span>Last Published: {{blog.updated_at}}</span><span class="verticalLineDivider">|</span><span>By {{blog.author}}</span>
+	</p>
+	<p></p>
+	<div class="singleBlogWrap">
+		<p>
+			{{blog.content}}
+		</p>
+	</div>
+	<div class="clearAll"></div>
+	<a href="javascript:void(0)" class="greyText">{{blog.comments}} Comments</a>
+	<a href="javascript:void(0)" ng-click="addComment()" class="btn btn-primary">Add Comment</a>
+	<div class="singleBlogWrap">
+	</div>
+	
+	<div id="addCommentPopup">
+		<form ng-submit="submitComment()" id="" class="commentForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Brief Title <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="comment.title" type="text" name="comment[title]" required="required">
+		</div>
+		<div class="form-group">
+			<label>Comment</label>
+			<textarea class="form-control" ng-model="comment.comment"  name="comment[comment]"  required="required"></textarea>
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+	</div>
+
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest:///D:/projects/angularapp/app/assets/templates/blogs/show.html;TT:charsetI"
+utf-8;F:digest"%ê@ŒH∂Æ^/µ3ÅµÄp6~tÜU.yS·4Ù>õ }:lengthi:integrityI"Kni:///sha-256;kEDOSLYIrl4vtTOBC7WAcDZ-dIZVLnlT4TT0GD6bIH0?ct=text/html;T:dependencies_digest"%Ír_0:–MfIp1á%Ü%,V	≠†π„∞öjê\ï:idI"E7b60c19da6b5ba9d791b7bfe0f076459a01ac10ab3bf20a03ce25f4ab1520ef3;F:
+mtimel+¬ÒEU

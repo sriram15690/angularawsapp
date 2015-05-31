@@ -1,0 +1,42 @@
+<div>
+	<form id="generate_prasadam_report" class="contactForm ng-pristine ng-valid" >
+		<div class="control-group">
+			<label class="control-label">Event Date</label>
+			<div class="controls">
+				<input class="datePickerInp form-control" type="text" name="current_event">
+			</div>
+		</div>
+		<div class="form-group m_t_10">
+			<label>Prasadam Not Taken List(Roll Num Separated by Commmas)</label>
+			<textarea rows="6" cols="10" class="form-control" type="text"  name="prasadam_list"></textarea>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="report_letterDate">Letter Date</label>
+			<div class="controls">
+				<input class="datePickerInp" type="text" id="report_letterDate" name="letter_date" placeholder="Letter Date" >
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Next Event Date</label>
+			<div class="controls">
+				<input class="datePickerInp" type="text" id="" name="next_event" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Annual fees</label>
+			<div class="controls">
+				<input type="text" id="" value="1800" name="annual_fees" placeholder="Next Event Date">
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="">Fees Revised On</label>
+			<div class="controls">
+				<input class="datePickerInp" type="text" id="" value="01.01.2012" name="fees_revised_on" placeholder="Next Event Date">
+			</div>
+		</div>
+		
+		<div class="form-group m_t_10">
+			<input type="submit" class="floatRight btn btn-success" value="Get Prasadam Pdf" name="commit">
+		</div>
+	</form>
+</div>

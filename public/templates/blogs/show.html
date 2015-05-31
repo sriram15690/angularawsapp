@@ -1,0 +1,39 @@
+<div>
+	<a href="/blogs" class="btn btn-primary floatRight m_b_5">Back to Blogs</a>
+</div>
+<div class="clearAll"></div>
+<div class="blogContent">
+	<h3>{{blog.title}}</h3>
+	<p>
+		<span>Last Published: {{blog.updated_at}}</span><span class="verticalLineDivider">|</span><span>By {{blog.author}}</span>
+	</p>
+	<p></p>
+	<div class="singleBlogWrap">
+		<p>
+			{{blog.content}}
+		</p>
+	</div>
+	<div class="clearAll"></div>
+	<a href="javascript:void(0)" class="greyText">{{blog.comments}} Comments</a>
+	<a href="javascript:void(0)" ng-click="addComment()" class="btn btn-primary">Add Comment</a>
+	<div class="singleBlogWrap">
+	</div>
+	
+	<div id="addCommentPopup">
+		<form ng-submit="submitComment()" id="" class="commentForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Brief Title <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="comment.title" type="text" name="comment[title]" required="required">
+		</div>
+		<div class="form-group">
+			<label>Comment</label>
+			<textarea class="form-control" ng-model="comment.comment"  name="comment[comment]"  required="required"></textarea>
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+	</div>
+
+</div>

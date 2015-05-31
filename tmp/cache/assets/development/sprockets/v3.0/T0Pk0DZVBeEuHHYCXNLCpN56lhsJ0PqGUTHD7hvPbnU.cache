@@ -1,0 +1,13 @@
+{:uriI"–file:///D:/projects/angularapp/app/assets/templates/blogs/show.html?type=text/html&id=e12e5117a2b16087b236285478751bf68801b2b0ec3c0f7cb19248caefb732c7:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"@D:/projects/angularapp/app/assets/templates/blogs/show.html;T:	nameI"blogs/show;T:logical_pathI"blogs/show.html;T:content_typeI"text/html;T:sourceI"œ<div class="blogContent">
+	<h3>{{blog.title}}</h4>
+	<p>{{blog.updated_at}}</p>
+		<div class="singleBlogWrap">
+			<p>{{blog.content}}</p>
+		</div>
+	
+</div>
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest:///D:/projects/angularapp/app/assets/templates/blogs/show.html;TT:charsetI"
+utf-8;F:digest"%ú÷å|lžD˜tc/µvÚ‰F›’f¨ÎjÈ}:lengthiœ:integrityI"Kni:///sha-256;-vcC5XwZEBYPbJ5EmHRjL7V22olGm5IBE2aozmrIEH0?ct=text/html;T:dependencies_digest"%É’COAÊ´×f7MÑkõ'ÀÀ=ms‘åÁ¹õúÜ„ªò:idI"Ee12e5117a2b16087b236285478751bf68801b2b0ec3c0f7cb19248caefb732c7;F:
+mtimel+—üDU

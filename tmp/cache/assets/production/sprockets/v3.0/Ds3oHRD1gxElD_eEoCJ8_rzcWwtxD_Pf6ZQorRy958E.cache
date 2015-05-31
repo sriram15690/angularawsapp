@@ -1,0 +1,9 @@
+{:uriI"–file:///D:/projects/angularapp/app/assets/templates/events/new.html?type=text/html&id=5ea87f74ecf3f534640dc7e9a3fb29c8eed7ba384c6f6d050b6214a081c76be8:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"@D:/projects/angularapp/app/assets/templates/events/new.html;T:	nameI"events/new;T:logical_pathI"events/new.html;T:content_typeI"text/html;T:sourceI"q
+<div class="contactContent">
+		<div ng-include="'assets/participants/participantForm.html'"></div>
+</div>
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest:///D:/projects/angularapp/app/assets/templates/events/new.html;TT:charsetI"
+utf-8;F:digest"%ãÎ@ëå«Ë™åŒçêb­í'¨¨	{07ıšû\©ÿ:lengthiq:integrityI"Kni:///sha-256;485A6-WrHcuZ5Yzn6mKtHe0nqKgJexgwN_2a-xdcqf8?ct=text/html;T:dependencies_digest"%§šÙt½î´—UÇÑ8!È@&¯Öùå.îD2ş®ã:idI"E5ea87f74ecf3f534640dc7e9a3fb29c8eed7ba384c6f6d050b6214a081c76be8;F:
+mtimel+êàT

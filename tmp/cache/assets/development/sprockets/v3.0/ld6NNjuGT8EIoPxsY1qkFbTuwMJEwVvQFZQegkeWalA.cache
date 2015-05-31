@@ -1,0 +1,38 @@
+{:uriI" file:///D:/projects/angularapp/app/assets/templates/contacts/contactForm.html?type=text/html&id=148887e5a1d323bc45a7e397115ee3649d04b453bfcb34a8b6739abea581e054:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"JD:/projects/angularapp/app/assets/templates/contacts/contactForm.html;T:	nameI"contacts/contactForm;T:logical_pathI"contacts/contactForm.html;T:content_typeI"text/html;T:sourceI"ç<div>
+	<form ng-submit="submitContact()" id="edit_contact" class="contactForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Name <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="contact.name" type="text" id="contact_name" name="contact[name]" required="required">
+		</div>
+		<div class="form-group">
+			<label>Email (To Receive Updates)</label>
+			<input   class="form-control" ng-model="contact.email"type="text" id="contact_email" name="contact[email]">
+		</div>
+		<div class="form-group">
+			<label>Mobile Number <span class="redStar">*</span></label>
+			<input   class="form-control number" ng-model="contact.mobile_num" type="text" id="contact_mobile_num" name="contact[mobile_num]" required="required" >
+		</div>
+
+		<div class="form-group">
+			<label>City of Residence<span class="redStar">*</span></label>
+			<input  class="form-control required"  ng-model="contact.city" type="text" id="contact_city" name="contact[city]" >
+		</div>
+
+		<div class="form-group">
+			<label>Membership <span class="redStar">*</span></label>
+			<select class="form-control" ng-model="contact.membership" id="contact_membership" name="contact[membership]">
+				<option value="Member">Member</option>
+				<option value="Not Available">Not Available</option>
+				<option value="Not a Member">Not a Member</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Yfile-digest:///D:/projects/angularapp/app/assets/templates/contacts/contactForm.html;TT:charsetI"
+utf-8;F:digest"%Çæö¨eä §Õ¦uÁï'¯²Ò×¯İ;ã°¥:lengthiç:integrityI"Kni:///sha-256;x-b2C42oZeQgp9WmEnUSwY3vJ6-y0teBrxSd3TvjsKU?ct=text/html;T:dependencies_digest"%”ÅË³å¹°*³Âaaø‹P×XËs¿ùPq,é”¦Ğ:idI"E148887e5a1d323bc45a7e397115ee3649d04b453bfcb34a8b6739abea581e054;F:
+mtimel+6†U

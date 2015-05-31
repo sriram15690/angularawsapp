@@ -1,0 +1,11 @@
+<div class="contactContent">
+	<p>Blogs List</p>
+	
+	<ul>
+		<li class="singleBlogWrap" ng-repeat="blog in blogs">
+			<p>Title: <a href="/blogs/{{blog.id}}">{{blog.title}}</a> <a ng-show="signedIn()" class="floatRight btn btn-primary" href="/blogs/{{blog.id}}/edit">Edit Blog</a>  <a class="floatRight btn btn-primary" href="/blogs/{{blog.id}}">View Blog</a> </p>
+			<p><span>Last Published: {{blog.updated_at}}</span> <span class="verticalLineDivider">|</span><span>By {{blog.author}}</span></p>
+		</li>
+	</ul>
+	
+</div>

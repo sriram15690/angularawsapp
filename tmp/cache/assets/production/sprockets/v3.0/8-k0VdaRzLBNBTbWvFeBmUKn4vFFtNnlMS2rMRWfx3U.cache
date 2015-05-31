@@ -1,0 +1,20 @@
+{:uriI"ñfile:///D:/projects/angularapp/app/assets/templates/auth/login.html?type=text/html&id=e7de07e8d6f7e138e5d3c6f0e10f76ffee67de165907b3f2a71e47482e969ef3:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"@D:/projects/angularapp/app/assets/templates/auth/login.html;T:	nameI"auth/login;T:logical_pathI"auth/login.html;T:content_typeI"text/html;T:sourceI"ç<h4 class="center">Log in</h4>
+<form class="contactForm" ng-submit="login()" accept-charset="UTF-8">
+	<div class="form-group">
+		<label for="user_email">Email</label>
+		<input class="form-control" ng-model="user.email" type="text" autofocus="autofocus" id="user_email" name="user[email]" value="">
+	</div>
+	<div class="form-group">
+		<label for="user_password">Password</label>
+		<input class="form-control"  ng-model="user.password" type="password" autocomplete="off" id="user_password" name="user[password]">
+	</div>
+
+	<div class="form-group">
+		<input   type="submit" value="Log in" name="commit" class="floatRight btn btn-primary">
+	</div>
+</form>
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Ofile-digest:///D:/projects/angularapp/app/assets/templates/auth/login.html;TT:charsetI"
+utf-8;F:digest"%ö©FÈCÖÇÍ"—•¯Â]Â∏∏R˚—,j<Ä˜cß†<$?:lengthiç:integrityI"Kni:///sha-256;mqlG6UOFguoi0aX45V3luLhS-9EsajyA92OnD6A8JD8?ct=text/html;T:dependencies_digest"%á¥k©Œd˝≠?|K.´˜†À%íYƒ1‹] âÆ	)Uì:idI"Ee7de07e8d6f7e138e5d3c6f0e10f76ffee67de165907b3f2a71e47482e969ef3;F:
+mtimel+§µ…T

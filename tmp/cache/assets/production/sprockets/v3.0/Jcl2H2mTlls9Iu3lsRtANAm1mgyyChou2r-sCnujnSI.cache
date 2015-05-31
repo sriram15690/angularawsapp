@@ -1,0 +1,27 @@
+{:uriI"šfile:///D:/projects/angularapp/app/assets/templates/blogs/blogForm.html?type=text/html&id=0fabd975cbdb8a911ce89cb586ccebc7ac589433011983bf52cf4e4f5ee4911d:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"DD:/projects/angularapp/app/assets/templates/blogs/blogForm.html;T:	nameI"blogs/blogForm;T:logical_pathI"blogs/blogForm.html;T:content_typeI"text/html;T:sourceI"7<div>
+	<form ng-submit="submitBlog()" id="edit_contact" class="contactForm ng-pristine ng-valid" >
+		<div class="form-group">
+			<label>Title <span class="redStar">*</span></label>
+			<input class="form-control"  ng-model="blog.title" type="text" name="blog[title]" required="required">
+		</div>
+		<div class="form-group">
+			<label>Content</label>
+			<textarea id="blogTextArea" class="form-control" ng-model="blog.content" name="blog[content]" required="required"></textarea>
+		</div>
+		
+		<div class="form-group">
+			<label>Author</label>
+			<input class="form-control"  ng-model="blog.author" type="text" name="blog[author]" required="required">
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="floatRight btn btn-success" value="Submit" name="commit">
+		</div>
+	</form>
+</div>
+<script>
+	
+</script>;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Sfile-digest:///D:/projects/angularapp/app/assets/templates/blogs/blogForm.html;TT:charsetI"
+utf-8;F:digest"%©™[gÿçÈâÄ>ìô-Ö|&}V²HXÄªõx¨ì:lengthi7:integrityI"Kni:///sha-256;qZlbGWf_HufI4gzEPuz0LdYWfBcmfVaySFjEqvV4qOw?ct=text/html;T:dependencies_digest"%—›F¸„±Wã`Þ]„bÒ#Àë"˜¸›r„¸¥‘r|õ:idI"E0fabd975cbdb8a911ce89cb586ccebc7ac589433011983bf52cf4e4f5ee4911d;F:
+mtimel+HÛEU

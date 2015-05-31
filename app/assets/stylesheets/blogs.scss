@@ -1,0 +1,21 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.singleBlogWrap {
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    list-style: outside none none;
+    margin: 10px 0;
+    padding: 10px 2%;
+}
+
+.blogContent {
+  border: 1px solid #bbb;
+   box-sizing: border-box;
+    padding: 10px 2%;
+}
+
+.updatedAtTitle {
+  font-size: 1em;
+  float: right;
+}

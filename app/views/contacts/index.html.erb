@@ -1,0 +1,59 @@
+<div class="contactContent">
+	<table id="contactsTable" class="cell-border" cellspacing="0" width="95%">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Mobile num</th>
+				<th>Status</th>
+				<th>City</th>
+				<th>Membership</th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+	</table>
+	<br />
+</div>
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.3/css/jquery.dataTables.css">
+
+<script>
+	$(document).ready(function() {
+		$('#contactsTable').DataTable({
+			"lengthMenu": [[10, 25, 40], [10, 25, 40]],
+			ajax :  "/get_all_contacts.json",
+			dom : "lf<t>p",
+			jqueryUi : true,
+			pagination : "full_numbers",
+			"columns" : [{
+				"data" : "name"
+			}, {
+				"data" : "mobile_num"
+			}, {
+				"data" : "status"
+			}, {
+				"data" : "city"
+			}, {
+				"data" : "membership"
+			}, {
+				render : function(data, type, row) {
+					return '<a href="/contacts/' + row.id + '">Show</a>'
+				}
+			}, {
+				render : function(data, type, row) {
+					return '<a href="/contacts/' + row.id + '/edit">Edit</a>'
+				}
+			}, {
+				render : function(data, type, row) {
+					return '<a  data-method="delete" data-confirm="Are you sure?" href="/contacts/' + row.id + '">Destroy</a>'
+				}
+			}]
+
+		});
+
+	}); 
+</script>

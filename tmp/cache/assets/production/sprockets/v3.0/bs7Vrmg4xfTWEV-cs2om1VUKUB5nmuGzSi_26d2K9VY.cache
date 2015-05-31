@@ -1,0 +1,10 @@
+{:uriI"file:///D:/projects/angularapp/app/assets/templates/participants/index.html?type=text/html&id=1afa174cb9165da0f4d934687c968d5b280dcaa60924edcabeef5f77bb86bfda:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"HD:/projects/angularapp/app/assets/templates/participants/index.html;T:	nameI"participants;T:logical_pathI"participants.html;T:content_typeI"text/html;T:sourceI"?<div class="contactContent">
+	<table class="display cell-border" id="participantsGrid"></table>
+</div>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.3/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css	">
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Wfile-digest:///D:/projects/angularapp/app/assets/templates/participants/index.html;TT:charsetI"
+utf-8;F:digest"%.{g=èãÉ6ë-W ¦4UÂmÜíÿ¸‚Û°ísZ=:lengthi?:integrityI"Kni:///sha-256;LntnPejjyTbrLVcgpjRVFwfCbdzt_7iCA9uw7Y1zWj0?ct=text/html;T:dependencies_digest"%{í]ÉæoÄK^¼àÌÉ„1è!DjH!Dj¤YB:idI"E1afa174cb9165da0f4d934687c968d5b280dcaa60924edcabeef5f77bb86bfda;F:
+mtimel+ü5!U

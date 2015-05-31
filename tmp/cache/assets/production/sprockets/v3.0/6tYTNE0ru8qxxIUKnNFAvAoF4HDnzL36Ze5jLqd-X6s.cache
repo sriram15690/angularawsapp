@@ -1,0 +1,66 @@
+{:uriI"ùfile:///D:/projects/angularapp/app/assets/templates/participants/show.html?type=text/html&id=f6e975ac8bd5bb8f8ba7695bb120c6c5d62cbeee6ec52d377217e8af9ed673cf:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"GD:/projects/angularapp/app/assets/templates/participants/show.html;T:	nameI"participants/show;T:logical_pathI"participants/show.html;T:content_typeI"text/html;T:sourceI"V<p class="bold">Participant Details</p>
+<a ng-href="/participants/{{participant.id}}/edit">Edit</a>
+<a  data-method="delete"  data-confirm="Are you sure?" ng-href="/participants/{{participant.id}}">Destroy</a>
+<table id="contactsTable" class="table table-bordered table-striped showContactTable" cellspacing="0">
+	<tbody>
+		<tr>
+			 <td>Roll Num</td>
+			 <td>{{participant.roll_num}}</td>
+		</tr>
+		<tr>
+			 <td>Sankalpam Name</td>
+			 <td>{{participant.sankalpam_name}}</td>
+		</tr>
+		<tr>
+			 <td>Gothram</td>
+			 <td>{{participant.gothram}}</td>
+		</tr>
+		<tr>
+			 <td>Rasi</td>
+			 <td>{{participant.rasi}}</td>
+		</tr>
+		<tr>
+			 <td>Nakshatram</td>
+			 <td>{{participant.nakshatram}}</td>
+		</tr>
+		<tr>
+			 <td>Telephone</td>
+			 <td>{{participant.telephone}}</td>
+		</tr>
+		<tr>
+			 <td>Receipt Num</td>
+			 <td>{{participant.receipt_num}}</td>
+		</tr>
+		<tr>
+			 <td>Receipt Date</td>
+			 <td>{{participant.receipt_date}}</td>
+		</tr>
+		<tr>
+			 <td>renewal_date</td>
+			 <td>{{participant.renewal_date}}</td>
+		</tr>
+		<tr>
+			 <td>Address 1</td>
+			 <td>{{participant.address1}}</td>
+		</tr>
+		<tr>
+			 <td>Address 2</td>
+			 <td>{{participant.address2}}</td>
+		</tr>
+		<tr>
+			 <td>City</td>
+			 <td>{{participant.city}}</td>
+		</tr>
+			<tr>
+			 <td>State</td>
+			 <td>{{participant.state}} - {{participant.pincode}}</td>
+		</tr>
+		
+
+	</tbody>
+</table>
+
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Vfile-digest:///D:/projects/angularapp/app/assets/templates/participants/show.html;TT:charsetI"
+utf-8;F:digest"%∑<±>Õå)‹59àG∞ËlÛºk©ŒÁ∞‹∫=£ù:lengthiV:integrityI"Kni:///sha-256;tzyxPs0NjCncNTmIR7DoHmzzvGupzuew3Lo9o50PAg8?ct=text/html;T:dependencies_digest"%4ö˜≈c9È16‘EÄ@¶8A±9w°@±ò¶ô∑â%Ö:idI"Ef6e975ac8bd5bb8f8ba7695bb120c6c5d62cbeee6ec52d377217e8af9ed673cf;F:
+mtimel+Ì˚)U

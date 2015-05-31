@@ -1,0 +1,16 @@
+{:uriI"ôfile:///D:/projects/angularapp/app/assets/templates/auth/register.html?type=text/html&id=c290625b4c3f1937b389e7751f022e3c6720c212e56bf9f99d88d717565e4265:ET:load_pathI"0D:/projects/angularapp/app/assets/templates;T:filenameI"CD:/projects/angularapp/app/assets/templates/auth/register.html;T:	nameI"auth/register;T:logical_pathI"auth/register.html;T:content_typeI"text/html;T:sourceI"ù<div class="page-header">
+  <h1>Register</h1>
+</div>
+
+<form ng-submit="register()">
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="Email" ng-model="user.email">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" placeholder="Password" ng-model="user.password">
+  </div>
+  <input type="submit" class="btn btn-primary" value="Register">
+</form>;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Rfile-digest:///D:/projects/angularapp/app/assets/templates/auth/register.html;TT:charsetI"
+utf-8;F:digest"%&pgq…â}W¯ÆôË~}°œÿﬂˇŒ¬:Îéª…s”Ÿ‚(:lengthiù:integrityI"Kni:///sha-256;JnBnccmJfVcX-K6Z6H59oc_Y3__OwjrrjrvJc9PZ4ig?ct=text/html;T:dependencies_digest"%Æ…Ω˝y◊¥>©c«¬»Œ§Påuº«L€X-”_ú:idI"Ec290625b4c3f1937b389e7751f022e3c6720c212e56bf9f99d88d717565e4265;F:
+mtimel+K∂…T
